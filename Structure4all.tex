@@ -50,7 +50,8 @@ longtable}
 \renewcommand{\arraystretch}{1.2} %cel1 Height scaling
 \setlength{\arrayrulewidth}{0.01mm} %Tab1e Border Thickness
 \arrayrulecolor{blue} % Table Border Color
-\newcolumntype{s}{>{\columncolor{blue!10}}c}
+% Custom column type with background + text color
+\newcolumntype{s}{>{\color{black}\columncolor{black}}c}
 %hyperref ==================== HYPERREF (ALWAYS LAST) ====================
 \usepackage[unicode=true,
             pdfencoding=auto,
