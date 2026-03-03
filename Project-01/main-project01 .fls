@@ -814,9 +814,6 @@ INPUT headerfooter-project01.tex
 INPUT .\main-project01 .aux
 INPUT .\main-project01 .aux
 INPUT main-project01 .aux
-INPUT .\substructure-project01.aux
-INPUT .\substructure-project01.aux
-INPUT substructure-project01.aux
 OUTPUT main-project01 .aux
 INPUT C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex\latex\pdflscape\pdflscape.sty
 INPUT C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex\latex\pdflscape\pdflscape.sty
@@ -852,9 +849,6 @@ INPUT .\Cover (2).pdf
 INPUT .\Cover (2).pdf
 INPUT .\Cover (2).pdf
 OUTPUT main-project01 .xdv
-INPUT .\substructure-project01.tex
-INPUT .\substructure-project01.tex
-OUTPUT substructure-project01.aux
 INPUT .\substructure-project01.tex
 INPUT .\substructure-project01.tex
 INPUT substructure-project01.tex
@@ -980,6 +974,3 @@ OUTPUT main-project01 .maf
 INPUT .\main-project01 .mtc
 INPUT .\main-project01 .mtc
 INPUT main-project01 .aux
-INPUT .\substructure-project01.aux
-INPUT .\substructure-project01.aux
-INPUT substructure-project01.aux
