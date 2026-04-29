@@ -1,13 +1,9 @@
+# Overwrite with clean content
+cat > .gitignore << 'EOF'
 # LaTeX build files
 *.aux
 *.maf
-*.mtc
-*.mtc0
-*.mtc1
-*.mtc2
-*.mtc3
-*.mtc4
-*.mtc5
+*.mtc*
 *.synctex.gz
 *.toc
 *.xdv
@@ -16,5 +12,7 @@
 *.fls
 *.fdb_latexmk
 
-# Optional: ignore PDF outputs
-# *.pdf
+# Editor files
+.vscode/
+*.code-workspace
+EOF
