@@ -1,10 +1,10 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.1) (preloaded format=xelatex 2026.3.3)  4 MAR 2026 21:53
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.1) (preloaded format=xelatex 2026.3.3)  30 APR 2026 02:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Drive D/overleaf/RC Projects/Project-01/main-project01 .tex"
-(c:/Drive D/overleaf/RC Projects/Project-01/main-project01 .tex
+**"c:/Drive D/overleaf/Road 2 Project/Project-01/main-project01 .tex"
+(c:/Drive D/overleaf/Road 2 Project/Project-01/main-project01 .tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
 (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
@@ -24,9 +24,17 @@ File: size12.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
 \abovecaptionskip=\skip49
 \belowcaptionskip=\skip50
 \bibindent=\dimen148
-) (../Structure4all.tex (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/fontspec\fontspec.sty (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse.sty (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+)
+(../Structure4all.tex
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/fontspec\fontspec.sty
+
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xpa
+rse.sty
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
 Package: expl3 2026-01-19 L3 programming layer (loader) 
- (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-xetex.def
+
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-x
+etex.def
 File: l3backend-xetex.def 2025-10-09 L3 backend support: XeTeX
 \g__graphics_track_int=\count280
 \g__pdfannot_backend_int=\count281
@@ -35,8 +43,11 @@ File: l3backend-xetex.def 2025-10-09 L3 backend support: XeTeX
 Package: xparse 2025-10-09 L3 Experimental document command parser
 )
 Package: fontspec 2025/09/29 v2.9g Font selection for XeLaTeX and LuaLaTeX
- (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/fontspec\fontspec-xetex.sty
-Package: fontspec-xetex 2025/09/29 v2.9g Font selection for XeLaTeX and LuaLaTeX
+
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/fontspec\fontspec-xet
+ex.sty
+Package: fontspec-xetex 2025/09/29 v2.9g Font selection for XeLaTeX and LuaLaTe
+X
 \l__fontspec_script_int=\count283
 \l__fontspec_language_int=\count284
 \l__fontspec_strnum_int=\count285
@@ -51,16 +62,22 @@ Package: fontspec-xetex 2025/09/29 v2.9g Font selection for XeLaTeX and LuaLaTeX
 \l__fontspec_tmpa_dim=\dimen149
 \l__fontspec_tmpb_dim=\dimen150
 \l__fontspec_tmpc_dim=\dimen151
- (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
 Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
-) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/fontspec\fontspec.cfg))) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+)
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/fontspec\fontspec.cfg
+)))
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
- (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks17
-) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+)
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
- (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
 Package: iftex 2024/12/12 v1.0g TeX engine tests
 ))
 \Gm@cnth=\count294
@@ -75,12 +92,17 @@ Package: iftex 2024/12/12 v1.0g TeX engine tests
 \Gm@layouthoffset=\dimen158
 \Gm@layoutvoffset=\dimen159
 \Gm@dimlist=\toks18
- (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg
+))
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count297
-) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
+)
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
 Package: setspace 2022/12/04 v6.7b set line spacing
-) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
+)
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
 Package: titlesec 2025/01/04 v2.17 Sectioning titles
 \ttl@box=\box53
 \beforetitleunit=\skip51
@@ -93,13 +115,19 @@ Package: titlesec 2025/01/04 v2.17 Sectioning titles
 \titlewidthfirst=\dimen164
 ) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
 Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
- (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cf
+g
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: xetex.def on input line 274.
- (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\xetex.def
+
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\xetex.de
+f
 File: xetex.def 2025/11/01 v5.0p Graphics/color driver for xetex
-) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+)
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.lt
+x)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
 Package xcolor Info: Model `RGB' extended on input line 1365.
 Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
@@ -108,34 +136,42 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
-) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+)
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
- (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
 Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
- (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
 Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
-) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+)
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics
+.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: xetex.def on input line 106.
 )
 \Gin@req@height=\dimen165
 \Gin@req@width=\dimen166
-) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+)
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2025/07/09 v2.17z AMS math features
 \@mathmargin=\skip53
 
 For additional information on amsmath, use the `?' option.
 (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
 Package: amstext 2024/11/17 v2.01 AMS text
- (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks20
 \ex@=\dimen167
-)) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+))
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen168
-) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+)
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
 \inf@bad=\count298
@@ -185,16 +221,20 @@ LaTeX Info: Redefining \Relbar on input line 970.
 \mathdisplay@stack=\toks24
 LaTeX Info: Redefining \[ on input line 2950.
 LaTeX Info: Redefining \] on input line 2951.
-) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+)
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
- (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-)) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mathtools.sty
+))
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mathtools.s
+ty
 Package: mathtools 2024/10/04 v1.31 mathematical typesetting tools
  (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
 Package: calc 2025/03/01 v4.3b Infix arithmetic (KKT,FJ)
@@ -208,7 +248,8 @@ LaTeX Info: Redefining \setlength on input line 86.
 LaTeX Info: Redefining \addtolength on input line 87.
 \calc@Ccount=\count312
 \calc@Cskip=\skip58
-) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mhsetup.sty
+)
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mhsetup.sty
 Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
 )
 \g_MT_multlinerow_int=\count313
@@ -250,7 +291,8 @@ Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
 \c@LT@tables=\count317
 \c@LT@chunks=\count318
 \LT@p@ftn=\toks31
-) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+)
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
 Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
 \col@sep=\dimen187
 \ar@mcellbox=\box61
@@ -259,7 +301,8 @@ Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
 \extratabsurround=\skip67
 \backup@length=\skip68
 \ar@cellbox=\box62
-) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
+)
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
 Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
 \multirow@colwidth=\skip69
 \multirow@cntb=\count319
@@ -274,14 +317,16 @@ Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
 \TX@delta=\dimen194
 \TX@cols=\count320
 \TX@ftn=\toks33
-) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/tabulary\tabulary.sty
+)
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/tabulary\tabulary.sty
 Package: tabulary 2024/06/04 v0.11 tabulary package (DPC)
 \TY@count=\count321
 \TY@linewidth=\dimen195
 \tymin=\dimen196
 \tymax=\dimen197
 \TY@tablewidth=\dimen198
-) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
+)
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
 Package: enumitem 2025/02/06 v3.11 Customized lists
 \labelindent=\skip71
 \enit@outerparindent=\dimen199
@@ -289,22 +334,46 @@ Package: enumitem 2025/02/06 v3.11 Customized lists
 \enit@inbox=\box63
 \enit@count@id=\count322
 \enitdp@description=\count323
-) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.sty (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.sty (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-common.tex
+)
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tik
+z.sty
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.st
+y
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.
+sty
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfut
+il-common.tex
 \pgfutil@everybye=\toks35
 \pgfutil@tempdima=\dimen256
 \pgfutil@tempdimb=\dimen257
-) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-latex.def
+)
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfut
+il-latex.def
 \pgfutil@abb=\box64
-) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.code.tex (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
+)
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrc
+s.code.tex
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.te
+x)
 Package: pgfrcs 2025-08-29 v3.1.11a (3.1.11a)
 ))
 Package: pgf 2025-08-29 v3.1.11a (3.1.11a)
- (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.sty (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.sty (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys.code.tex
+
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcor
+e.sty
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsy
+s.sty
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf
+sys.code.tex
 Package: pgfsys 2025-08-29 v3.1.11a (3.1.11a)
- (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex
+
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfke
+ys.code.tex
 \pgfkeys@pathtoks=\toks36
 \pgfkeys@temptoks=\toks37
- (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeyslibraryfiltered.code.tex
+
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfke
+yslibraryfiltered.code.tex
 \pgfkeys@tmptoks=\toks38
 ))
 \pgf@x=\dimen258
@@ -327,36 +396,82 @@ Package: pgfsys 2025-08-29 v3.1.11a (3.1.11a)
 \t@pgf@tokb=\toks40
 \t@pgf@tokc=\toks41
 \pgf@sys@id@count=\count328
- (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.cfg
+
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf
+.cfg
 File: pgf.cfg 2025-08-29 v3.1.11a (3.1.11a)
 )
 Driver file for pgf: pgfsys-xetex.def
- (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-xetex.def
+
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf
+sys-xetex.def
 File: pgfsys-xetex.def 2025-08-29 v3.1.11a (3.1.11a)
- (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-dvipdfmx.def
+
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf
+sys-dvipdfmx.def
 File: pgfsys-dvipdfmx.def 2025-08-29 v3.1.11a (3.1.11a)
- (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-common-pdf.def
+
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf
+sys-common-pdf.def
 File: pgfsys-common-pdf.def 2025-08-29 v3.1.11a (3.1.11a)
 )
 \pgfsys@objnum=\count329
-))) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.tex
+)))
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf
+syssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgfsyssoftpath@smallbuffer@items=\count330
 \pgfsyssoftpath@bigbuffer@items=\count331
-) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsysprotocol.code.tex
+)
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf
+sysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-)) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore.code.tex
+))
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+ore.code.tex
 Package: pgfcore 2025-08-29 v3.1.11a (3.1.11a)
- (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.code.tex) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparser.code.tex
+
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.co
+de.tex
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathuti
+l.code.tex)
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathpar
+ser.code.tex
 \pgfmath@dimen=\dimen268
 \pgfmath@count=\count332
 \pgfmath@box=\box65
 \pgfmath@toks=\toks42
 \pgfmath@stack@operand=\toks43
 \pgfmath@stack@operation=\toks44
-) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.code.tex) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.trigonometric.code.tex) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.random.code.tex) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.comparison.code.tex) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.base.code.tex) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.round.code.tex) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.integerarithmetics.code.tex) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.code.tex) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat.code.tex
+)
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfun
+ctions.code.tex)
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfun
+ctions.basic.code.tex)
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfun
+ctions.trigonometric.code.tex)
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfun
+ctions.random.code.tex)
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfun
+ctions.comparison.code.tex)
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfun
+ctions.base.code.tex)
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfun
+ctions.round.code.tex)
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfun
+ctions.misc.code.tex)
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfun
+ctions.integerarithmetics.code.tex)
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcal
+c.code.tex)
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathflo
+at.code.tex
 \c@pgfmathroundto@lastzeros=\count333
-)) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.tex) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex
+))
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.cod
+e.tex)
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+orepoints.code.tex
 File: pgfcorepoints.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@picminx=\dimen269
 \pgf@picmaxx=\dimen270
@@ -372,75 +487,130 @@ File: pgfcorepoints.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@yy=\dimen280
 \pgf@zx=\dimen281
 \pgf@zy=\dimen282
-) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathconstruct.code.tex
+)
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+orepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@path@lastx=\dimen283
 \pgf@path@lasty=\dimen284
-) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathusage.code.tex
+)
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+orepathusage.code.tex
 File: pgfcorepathusage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@shorten@end@additional=\dimen285
 \pgf@shorten@start@additional=\dimen286
-) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex
+)
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+orescopes.code.tex
 File: pgfcorescopes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgfpic=\box66
 \pgf@hbox=\box67
 \pgf@layerbox@main=\box68
 \pgf@picture@serial@count=\count334
-) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.tex
+)
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+oregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgflinewidth=\dimen287
-) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransformations.code.tex
+)
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+oretransformations.code.tex
 File: pgfcoretransformations.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@pt@x=\dimen288
 \pgf@pt@y=\dimen289
 \pgf@pt@temp=\dimen290
-) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorequick.code.tex
+)
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+orequick.code.tex
 File: pgfcorequick.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreobjects.code.tex
+)
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+oreobjects.code.tex
 File: pgfcoreobjects.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathprocessing.code.tex
+)
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+orepathprocessing.code.tex
 File: pgfcorepathprocessing.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorearrows.code.tex
+)
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+orearrows.code.tex
 File: pgfcorearrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgfarrowsep=\dimen291
-) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex
+)
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+oreshade.code.tex
 File: pgfcoreshade.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@max=\dimen292
 \pgf@sys@shading@range@num=\count335
 \pgf@shadingcount=\count336
-) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex
+)
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+oreimage.code.tex
 File: pgfcoreimage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreexternal.code.tex
+)
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+oreexternal.code.tex
 File: pgfcoreexternal.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgfexternal@startupbox=\box69
-) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorelayers.code.tex
+)
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+orelayers.code.tex
 File: pgfcorelayers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransparency.code.tex
+)
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+oretransparency.code.tex
 File: pgfcoretransparency.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepatterns.code.tex
+)
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+orepatterns.code.tex
 File: pgfcorepatterns.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorerdf.code.tex
+)
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+orerdf.code.tex
 File: pgfcorerdf.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-))) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduleshapes.code.tex
+)))
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodu
+leshapes.code.tex
 File: pgfmoduleshapes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgfnodeparttextbox=\box70
-) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduleplot.code.tex
+)
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodu
+leplot.code.tex
 File: pgfmoduleplot.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty
+)
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgf
+comp-version-0-65.sty
 Package: pgfcomp-version-0-65 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@nodesepstart=\dimen293
 \pgf@nodesepend=\dimen294
-) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-1-18.sty
+)
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgf
+comp-version-1-18.sty
 Package: pgfcomp-version-1-18 2025-08-29 v3.1.11a (3.1.11a)
-)) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.sty (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.sty (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex)) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex)) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.code.tex
+))
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.
+sty
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys
+.sty
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfke
+ys.code.tex))
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.co
+de.tex))
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffo
+r.code.tex
 Package: pgffor 2025-08-29 v3.1.11a (3.1.11a)
 \pgffor@iter=\dimen295
 \pgffor@skip=\dimen296
 \pgffor@stack=\toks45
 \pgffor@toks=\toks46
-)) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex
+))
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/t
+ikz\tikz.code.tex
 Package: tikz 2025-08-29 v3.1.11a (3.1.11a)
- (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryplothandlers.code.tex
+
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgfli
+braryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@plot@mark@count=\count337
 \pgfplotmarksize=\dimen297
@@ -461,27 +631,34 @@ File: pgflibraryplothandlers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \tikznumberofchildren=\count339
 \tikznumberofcurrentchild=\count340
 \tikz@fig@count=\count341
- (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodulematrix.code.tex
+
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodu
+lematrix.code.tex
 File: pgfmodulematrix.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgfmatrixcurrentrow=\count342
 \pgfmatrixcurrentcolumn=\count343
 \pgf@matrix@numberofcolumns=\count344
 )
 \tikz@expandcount=\count345
- (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarytopaths.code.tex
+
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/t
+ikz/libraries\tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-))) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+)))
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count346
 \float@exts=\toks47
 \float@box=\box75
 \@float@everytoks=\toks48
 \@floatcapt=\box76
-) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.sty
+)
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.st
+y
 Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
  (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
- (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
 \caption@tempdima=\dimen306
 \captionmargin=\dimen307
@@ -497,33 +674,46 @@ Package caption Info: Standard document class detected.
 \c@continuedfloat=\count348
 Package caption Info: float package is loaded.
 Package caption Info: longtable package is loaded.
- (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.sty
+
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.sty
 Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 ))
 Package caption Info: New subtype `subfigure' on input line 238.
 \c@subfigure=\count349
 Package caption Info: New subtype `subtable' on input line 238.
 \c@subtable=\count350
-) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/lastpage\lastpage.sty
+)
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/lastpage\lastpage.sty
 Package: lastpage 2025/08/14 v2.1h lastpage: 2.09 or 2e? (HMM)
- (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/lastpage\lastpage2e.sty
-Package: lastpage2e 2025/08/14 v2.1h Decide which 2e lastpage version to use (HMM)
- (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/lastpage\lastpagemodern.sty
+
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/lastpage\lastpage2e.s
+ty
+Package: lastpage2e 2025/08/14 v2.1h Decide which 2e lastpage version to use (H
+MM)
+
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/lastpage\lastpagemode
+rn.sty
 Package: lastpagemodern 2025-08-14 v2.1h Refers to last page's name (HMM; JPG)
 \c@lastpagecount=\count351
 ) 
-)) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/chngcntr\chngcntr.sty
+))
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/chngcntr\chngcntr.sty
 Package: chngcntr 2018/04/09 v1.1a change counter resetting
 Package chngcntr Info: \counterwithout already defined.
 (chngcntr)             Quitting chngcntr on input line 21.
-) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.sty (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3keys2e.sty
+) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.sty
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l
+3keys2e.sty
 Package: l3keys2e 2025-10-09 LaTeX2e option processing using LaTeX3 keys
 )
 Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
 \g__lipsum_par_int=\count352
 \l__lipsum_a_int=\count353
 \l__lipsum_b_int=\count354
- (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.ltd.tex)) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.sty
+
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.ltd.tex
+))
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.sty
 Package: csquotes 2024-04-04 v5.2o context-sensitive quotations (JAW)
 \csq@reset=\count355
 \csq@gtype=\count356
@@ -532,18 +722,22 @@ Package: csquotes 2024-04-04 v5.2o context-sensitive quotations (JAW)
 \csq@maxlvl=\count359
 \csq@tshold=\count360
 \csq@ltx@everypar=\toks49
- (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.def
+
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.def
 File: csquotes.def 2024-04-04 v5.2o csquotes generic definitions (JAW)
 )
 Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
 Package csquotes Info: ... configuration file loaded successfully.
- (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.cfg
+
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.cfg
 File: csquotes.cfg 
-)) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pdfpages.sty
+))
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pdfpages.sty
 Package: pdfpages 2025/07/23 v0.6g Insert pages of external PDF documents (AM)
- (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
-) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty
+)
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty
 Package: eso-pic 2025/12/10 v3.0d eso-pic (RN)
 \ESO@tempdima=\dimen314
 \ESO@tempdimb=\dimen315
@@ -551,7 +745,8 @@ Package: eso-pic 2025/12/10 v3.0d eso-pic (RN)
 \AM@pagewidth=\dimen316
 \AM@pageheight=\dimen317
 \AM@fboxrule=\dimen318
- (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\ppxetex.def
+
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\ppxetex.def
 File: ppxetex.def 2025/07/23 v0.6g Pdfpages driver for XeTeX (AM)
 )
 \pdfpages@includegraphics@status=\count361
@@ -562,8 +757,10 @@ File: ppxetex.def 2025/07/23 v0.6g Pdfpages driver for XeTeX (AM)
 \AM@lof@heading=\toks52
 \c@AM@survey=\count363
 \AM@templatesizebox=\box78
-) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
+)
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
 Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
+
 \f@nch@headwidth=\skip72
 \f@nch@offset@elh=\skip73
 \f@nch@offset@erh=\skip74
@@ -700,11 +897,16 @@ Package: verbatim 2024-01-22 v1.5x LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks55
 \verbatim@line=\toks56
 \verbatim@in@stream=\read3
-) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcolorbox.sty
+)
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcolorbox.s
+ty
 Package: tcolorbox 2025/11/28 version 6.9.0 text color boxes
- (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/environ\environ.sty
+
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/environ\environ.sty
 Package: environ 2014/05/04 v0.3 A new way to define environments
- (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/trimspaces\trimspaces.sty
+
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/trimspaces\trimspaces
+.sty
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 ))
 \tcb@titlebox=\box126
@@ -720,30 +922,47 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 \tcb@temp=\box132
 \tcb@temp=\box133
 \tcb@temp=\box134
- (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbraster.code.tex
+
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbraster.c
+ode.tex
 Library (tcolorbox): 'tcbraster.code.tex' version '6.9.0'
 \c@tcbrastercolumn=\count381
 \c@tcbrasterrow=\count382
 \c@tcbrasternum=\count383
 \c@tcbraster=\count384
-) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbskins.code.tex
+)
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbskins.co
+de.tex
 Library (tcolorbox): 'tcbskins.code.tex' version '6.9.0'
-(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/tikzfill\tikzfill.image.sty
+
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/tikzfill\tikzfill.ima
+ge.sty
 Package: tikzfill.image 2023/08/08 v1.0.1 Image filling library for TikZ
- (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/tikzfill\tikzfill-common.sty
+
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/tikzfill\tikzfill-com
+mon.sty
 Package: tikzfill-common 2023/08/08 v1.0.1 Auxiliary code for tikzfill
-) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/tikzfill\tikzlibraryfill.image.code.tex
+)
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/tikzfill\tikzlibraryf
+ill.image.code.tex
 File: tikzlibraryfill.image.code.tex 2023/08/08 v1.0.1 Image filling library
 \l__tikzfill_img_box=\box135
-)) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbskinsjigsaw.code.tex
+))
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbskinsjig
+saw.code.tex
 Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '6.9.0'
-)) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbbreakable.code.tex
+))
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbbreakabl
+e.code.tex
 Library (tcolorbox): 'tcbbreakable.code.tex' version '6.9.0'
 (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/pdfcol\pdfcol.sty
 Package: pdfcol 2022-09-21 v1.7 Handle new color stacks for pdfTeX (HO)
- (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
 Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
-) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.sty
+)
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr
+.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdfcol Info: Interface disabled because of missing PDF mode of pdfTeX.
@@ -752,20 +971,31 @@ Package pdfcol Info: pdfTeX's color stacks are not available.
 \tcb@testbox=\box136
 \tcb@totalupperbox=\box137
 \tcb@totallowerbox=\box138
-) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbhooks.code.tex
+)
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbhooks.co
+de.tex
 Library (tcolorbox): 'tcbhooks.code.tex' version '6.9.0'
-) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbtheorems.code.tex
+)
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbtheorems
+.code.tex
 Library (tcolorbox): 'tcbtheorems.code.tex' version '6.9.0'
-) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbfitting.code.tex
+)
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbfitting.
+code.tex
 Library (tcolorbox): 'tcbfitting.code.tex' version '6.9.0'
 \tcbfitdim=\dimen331
 \tcb@lowerfitdim=\dimen332
 \tcb@upperfitdim=\dimen333
 \tcb@cur@hbadness=\count385
-) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcblistingsutf8.code.tex
+)
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcblistings
+utf8.code.tex
 Library (tcolorbox): 'tcblistingsutf8.code.tex' version '6.9.0'
-(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcblistings.code.tex
+
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcblistings
+.code.tex
 Library (tcolorbox): 'tcblistings.code.tex' version '6.9.0'
+
 (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
 \lst@mode=\count386
 \lst@gtempboxa=\box139
@@ -779,14 +1009,17 @@ Library (tcolorbox): 'tcblistings.code.tex' version '6.9.0'
 \lst@newlines=\count390
 \lst@lineno=\count391
 \lst@maxwidth=\dimen337
- (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstpatch.sty
+
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstpatch.sty
 File: lstpatch.sty 2025/11/14 1.11b (Carsten Heinz)
-) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
+)
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2025/11/14 1.11b (Carsten Heinz)
 \c@lstnumber=\count392
 \lst@skipnumbers=\count393
 \lst@framebox=\box140
-) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
+)
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
 File: listings.cfg 2025/11/14 1.11b listings configuration
 ))
 Package: listings 2025/11/14 1.11b (Carsten Heinz)
@@ -797,34 +1030,53 @@ Package: listings 2025/11/14 1.11b (Carsten Heinz)
     but found:
         2025/11/14 1.11b (Carsten Heinz)
     so I'm assuming it got fixed.
-(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcblistingscore.code.tex
+
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcblistings
+core.code.tex
 Library (tcolorbox): 'tcblistingscore.code.tex' version '6.9.0'
-(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbprocessing.code.tex
+
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbprocessi
+ng.code.tex
 Library (tcolorbox): 'tcbprocessing.code.tex' version '6.9.0'
 )
 \c@tcblisting=\count394
 ))
-Package tcolorbox Info: Library `listingsutf8' is compatible with pdftex only. Library `listings` is loaded instead. on input line 29.
-) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbexternal.code.tex
+Package tcolorbox Info: Library `listingsutf8' is compatible with pdftex only. 
+Library `listings` is loaded instead. on input line 29.
+)
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbexternal
+.code.tex
 Library (tcolorbox): 'tcbexternal.code.tex' version '6.9.0'
-) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbmagazine.code.tex
+)
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbmagazine
+.code.tex
 Library (tcolorbox): 'tcbmagazine.code.tex' version '6.9.0'
-) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbvignette.code.tex
+)
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbvignette
+.code.tex
 Library (tcolorbox): 'tcbvignette.code.tex' version '6.9.0'
-(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryfadings.code.tex
+
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/t
+ikz/libraries\tikzlibraryfadings.code.tex
 File: tikzlibraryfadings.code.tex 2025-08-29 v3.1.11a (3.1.11a)
- (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryfadings.code.tex
+
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgfli
+braryfadings.code.tex
 File: pgflibraryfadings.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-))) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbposter.code.tex
+)))
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbposter.c
+ode.tex
 Library (tcolorbox): 'tcbposter.code.tex' version '6.9.0'
-)) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/colortbl\colortbl.sty
+))
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/colortbl\colortbl.sty
 Package: colortbl 2024/10/29 v1.0k Color table columns (DPC)
 \everycr=\toks58
 \minrowclearance=\skip122
 \rownum=\count395
 ) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/tabu\tabu.sty
 Package: tabu 2019/01/11 v2.9 - flexible LaTeX tabulars (FC+tabu-fixed)
- (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/varwidth\varwidth.sty
+
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/varwidth\varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@box=\box141
 \sift@deathcycles=\count396
@@ -854,40 +1106,62 @@ Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \tabu@hleads=\box144
 \tabu@vleads=\box145
 \tabu@cellskip=\skip123
-) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+)
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
 Package: hyperref 2026-01-29 v7.01p Hypertext links for LaTeX
- (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.s
+ty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
-) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty
+)
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefi
+nekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.sty
+)
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape
+.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
- (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
-Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcm
+ds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode not found.
-)) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+))
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
-) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+)
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2026-01-29 v2.58 Cross-referencing by name of section
- (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
-) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
+)
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gett
+itlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
- (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.s
+ty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
 \c@section@level=\count403
-) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.sty
-Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
+)
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc
+.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
 )
 \@linkdim=\dimen349
 \Hy@linkcounter=\count404
 \Hy@pagecounter=\count405
- (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
 File: pd1enc.def 2026-01-29 v7.01p Hyperref: PDFDocEncoding definition (HO)
-) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+)
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
 \Hy@SavedSpaceFactor=\count406
@@ -897,11 +1171,13 @@ File: puenc.def 2026-01-29 v7.01p Hyperref: PDF Unicode definition (HO)
 Package hyperref Info: Option `unicode' set `true' on input line 4072.
 Package hyperref Info: Option `unicode' set `true' on input line 4072.
 Package hyperref Info: Option `psdextra' set `true' on input line 4072.
- (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\psdextra.def
+
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\psdextra.def
 File: psdextra.def 2026-01-29 v7.01p Hyperref: Additions to PDF string support
 )
 Package hyperref Info: Option `bookmarks' set `true' on input line 4072.
-Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 4072.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 4072
+.
 Package hyperref Info: Option `bookmarksopen' set `true' on input line 4072.
 Package hyperref Info: Option `breaklinks' set `true' on input line 4072.
 Package hyperref Info: Option `colorlinks' set `true' on input line 4072.
@@ -919,10 +1195,14 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4807.
 \XeTeXLinkMargin=\dimen350
- (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
- (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
-Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
+
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintca
+lc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
 ))
 \Fld@menulength=\count408
 \Field@Width=\dimen351
@@ -951,37 +1231,55 @@ File: hxetex.def 2026-01-29 v7.01p Hyperref driver for XeTeX
 \HyField@AnnotCount=\count413
 \Fld@listcount=\count414
 \c@bookmark@seq@number=\count415
- (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
+
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunf
+ilecheck.sty
 Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
- (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty
+
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniqu
+ecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
-Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 284.
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+84.
 )
 \Hy@SectionHShift=\skip124
-) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/etoc\etoc.sty
+)
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/etoc\etoc.sty
 Package: etoc 2023/10/29 v1.2d Completely customisable TOCs (JFB)
 \Etoc@toctoks=\toks61
 \c@etoc@tocid=\count416
 \etoc@framed@titlebox=\box147
 \etoc@framed@contentsbox=\box148
-) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bookmark.sty
+)
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bookmark.sty
 Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
- (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bkm-dvipdfm.def
+
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bkm-dvipdfm.
+def
 File: bkm-dvipdfm.def 2023-12-10 v1.31 bookmark driver for dvipdfm (HO)
 \BKM@id=\count417
-)) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/polyglossia\polyglossia.sty
-Package: polyglossia 2025/12/01 v2.9 Modern multilingual typesetting with XeLaTeX and LuaLaTeX
+))
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/polyglossia\polygloss
+ia.sty
+Package: polyglossia 2025/12/01 v2.9 Modern multilingual typesetting with XeLaT
+eX and LuaLaTeX
 \l_xpg_alias_keyvals_int=\count418
- (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/polyglossia\gloss-latex.ldf
+
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/polyglossia\gloss-lat
+ex.ldf
 File: gloss-latex.ldf polyglossia: module for default language
-)) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/polyglossia\gloss-english.ldf
+))
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/polyglossia\gloss-eng
+lish.ldf
 File: gloss-english.ldf polyglossia: module for English
 )
 
 Package polyglossia Info: Default language is english
 
- (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/polyglossia\gloss-khmer.ldf
+
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/polyglossia\gloss-khm
+er.ldf
 File: gloss-khmer.ldf polyglossia: module for Khmer
 )
 
@@ -1053,9 +1351,11 @@ Package fontspec Info:
 (fontspec)             - 'bold italic' (b/it) with NFSS spec.:
 (fontspec)             <->s*[0.8826852013406216]"Khmer
 (fontspec)             OS/OT:script=khmr;language=dflt;embolden=1.5;slant=0.2;"
+
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
 (fontspec)             <->s*[0.8826852013406216]"Khmer
 (fontspec)             OS/OT:script=khmr;language=dflt;embolden=1.5;slant=0.2;"
+
 
 \c@tcb@cnt@definition=\count419
 \c@tcb@cnt@example=\count420
@@ -1071,9 +1371,11 @@ Package fontspec Info:
 \c@tcb@cnt@solution=\count430
 \c@tcb@cnt@theorem=\count431
 \c@tcb@cnt@exercise=\count432
- (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/minitoc\minitoc.sty
+
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/minitoc\minitoc.sty
 Package: minitoc 2018/07/12 v62 Package minitoc
- (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/minitoc\mtcmess.sty
+
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/minitoc\mtcmess.sty
 Package: mtcmess 2006/03/14
 )
 Package minitoc Info: I0001
@@ -1096,7 +1398,8 @@ Package minitoc Info: I0002
 
 \openout4 = `"main-project01 .mtc"'.
 
- (main-project01 .mtc0)
+
+(main-project01 .mtc0)
 Package minitoc Info: I0012
 (minitoc)             Long extensions (Unix-like) will be used.
 Package minitoc Info: I0031
@@ -1114,9 +1417,11 @@ Package minitoc Info: I0031
 Package minitoc Info: I0010
 (minitoc)             The english language is selected.
 (minitoc)              on input line 4910.
- (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/minitoc\english.mld
+
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/minitoc\english.mld
 File: english.mld 2006/01/13
-) (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/minitoc\english.mld
+)
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/minitoc\english.mld
 File: english.mld 2006/01/13
 ))) (headerfooter-project01.tex)
 Package csquotes Info: Checking for multilingual support...
@@ -1243,14 +1548,21 @@ Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
-(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
+
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.s
+ty
 Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
- (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape-nometadata.sty
-Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PDF (HO)
- (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
+
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape-n
+ometadata.sty
+Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PD
+F (HO)
+
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
 Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: dvipdfm (xetex) on input line 98.
+
 ))
 \c@lstlisting=\count437
 Package hyperref Info: Link coloring ON on input line 14.
@@ -1276,18 +1588,35 @@ Package minitoc(hints) Warning: W0099
 (minitoc(hints))                with the minitoc package.
 
 Package minitoc Info: I0024
-(minitoc)             PREPARING MINITOCS FROM "main-project01 ".toc on input line 14.
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {1}Introduction}{\reset@font\mtcSfont 1}{section.0.1}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2}Team Organization}{\reset@font\mtcSfont 2}{section.0.2}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {3}Meeting Minutes \& Progress Reports}{\reset@font\mtcSfont 3}{section.0.3}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4}Architectural \& Structural Assumptions}{\reset@font\mtcSfont 4}{section.0.4}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {5}Design \& Optimization Process}{\reset@font\mtcSfont 5}{section.0.5}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {6}Detailed Design Calculations}{\reset@font\mtcSfont 6}{section.0.6}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {6.1}Load}{\reset@font\mtcSSfont 6}{subsection.0.6.1}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {7}Design Drawings}{\reset@font\mtcSfont 8}{section.0.7}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {8}Results, Discussion \& Conclusion}{\reset@font\mtcSfont 9}{section.0.8}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode References}{\reset@font\mtcSfont 10}{section*.1}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode Appendices}{\reset@font\mtcSfont 11}{section*.2}}
+(minitoc)             PREPARING MINITOCS FROM "main-project01 ".toc on input li
+ne 14.
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \n
+umberline {1}Introduction}{\reset@font\mtcSfont 1}{section.0.1}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \n
+umberline {2}Team Organization}{\reset@font\mtcSfont 2}{section.0.2}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \n
+umberline {3}Meeting Minutes \& Progress Reports}{\reset@font\mtcSfont 3}{secti
+on.0.3}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \n
+umberline {4}Architectural \& Structural Assumptions}{\reset@font\mtcSfont 4}{s
+ection.0.4}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \n
+umberline {5}Design \& Optimization Process}{\reset@font\mtcSfont 5}{section.0.
+5}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \n
+umberline {6}Detailed Design Calculations}{\reset@font\mtcSfont 6}{section.0.6}
+}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmod
+e \numberline {6.1}Load}{\reset@font\mtcSSfont 6}{subsection.0.6.1}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \n
+umberline {7}Design Drawings}{\reset@font\mtcSfont 8}{section.0.7}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \n
+umberline {8}Results, Discussion \& Conclusion}{\reset@font\mtcSfont 9}{section
+.0.8}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode Re
+ferences}{\reset@font\mtcSfont 10}{section*.1}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode Ap
+pendices}{\reset@font\mtcSfont 11}{section*.2}}
 \tf@toc=\write5
 \openout5 = `"main-project01 .toc"'.
 
@@ -1328,8 +1657,11 @@ File: Cover (2).pdf Graphic file (type pdf)
 <use Cover (2).pdf, page 1>
 File: Cover (2).pdf Graphic file (type pdf)
 <use Cover (2).pdf, page 1>
-(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\se-ascii-print.def
+
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\se-ascii-
+print.def
 File: se-ascii-print.def 2019/11/29 v1.12 stringenc: Printable ASCII characters
+
 )
 File: Cover (2).pdf Graphic file (type pdf)
 <use Cover (2).pdf, page 1>
@@ -1376,13 +1708,18 @@ File: Cover (2).pdf Graphic file (type pdf)
 
 LaTeX Font Info:    Calculating math sizes for size <14> on input line 33.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 33.
- (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+
+
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 33.
- (C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+
+
+(C:\Users\GooDGuy\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1
+)
+[1
 
 
 ] (main-project01 .lof)
@@ -1432,7 +1769,8 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-) (Intro.tex) [1
+) (Intro.tex)
+[1
 
 
 
@@ -1462,7 +1800,8 @@ Underfull \vbox (badness 10000) detected at line 47
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [7] (Designdrawing.tex) [8
+ [7]
+(Designdrawing.tex) [8
 
 ] (Result.tex) [9
 
@@ -1493,7 +1832,8 @@ File: plan1.pdf Graphic file (type pdf)
 <use plan1.pdf, page 2>
 File: plan1.pdf Graphic file (type pdf)
 <use plan1.pdf, page 2>
- [13
+
+[13
 
 ]
 File: plan1.pdf Graphic file (type pdf)
@@ -1572,11 +1912,11 @@ L3 programming layer <2026-01-19>
  ) 
 Here is how much of TeX's memory you used:
  40609 strings out of 402982
- 819204 string characters out of 5448060
- 1474305 words of memory out of 5000000
+ 819213 string characters out of 5448060
+ 1474304 words of memory out of 5000000
  68717 multiletter control sequences out of 15000+600000
  635725 words of font info for 93 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 89i,18n,118p,597b,2114s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 89i,18n,118p,600b,2114s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on main-project01 .xdv (27 pages, 126260 bytes).

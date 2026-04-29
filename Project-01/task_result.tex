@@ -1,0 +1,445 @@
+\subsection{Tasks A: Traffic Analysis}
+Calculation total $W_{18}$ over the design period of 20 years, using the following formula:
+
+\begin{equation}
+    ESAL_i = f_d \times f_i \times AADT_i \times G_{rn} \times 365 \times EALF_i
+    \label{eq:esal_calculation}
+\end{equation}
+Where:
+
+\begin{itemize}
+    \item $ESAL_i$ equivalent accumulated 18,000-lb (80 kN) single-axle load for the axle category $i$
+    \item $AADT_i$ first year annual average daily traffic for axle category $i$
+    \item $EALF_i$ load equivalency factor for axle category $i$.
+\end{itemize}
+\subsubsection*{Calculation of $AADT_i$ for each class}
+\begin{table}[H]
+\centering
+\begin{tabular}{|l|c|c|c|}
+\hline
+\textbf{Vehicle Type} & \textbf{Config} & \textbf{\% of} $AADT$ & $AADT_i$ \textbf{(veh/day)} \\
+\hline
+1. Passenger car  & 2T s.s   & 75.5 & 1510 \\
+2. Small bus      & 9T s.s   & 20   & 400  \\
+3. HV Class 1     & s.d      & 1    & 20   \\
+4. HV Class 3     & s.dd     & 2    & 40   \\
+5. HV Class 5     & ss.ddd   & 0.5  & 10   \\
+6. HV Class 15    & s.d-ddd  & 1    & 20   \\
+\hline
+\end{tabular}
+\caption{AADT for each class of vehicles}
+\label{tab:aadt_vehicles}
+\end{table}
+\subsubsection*{Growth Factor}
+\begin{equation*}
+G_{rn} = \frac{(1+r)^n - 1}{r} = \frac{(1+0.07)^{20} - 1}{0.07} = 40.995
+\end{equation*}
+\subsubsection{For Flexible Pavement}
+The 1993 AASHTO guide developed Equivalent Axle Load Factors (EALF) to relate the damage
+caused by different load magnitudes and axle configurations to the standard axle load:
+\begin{equation*}
+    EALF = \frac{W_{t18}}{W_{tx}}
+\end{equation*}
+\begin{equation}
+    \log\left(\frac{W_{tx}}{W_{t18}}\right) = 4.79\log(18+1) - 4.79\log(L_x + L_2)
+    + 4.33\log(L_2) + \frac{G_t}{\beta_x} - \frac{G_t}{\beta_{18}}
+\label{eq:ealf_flexible}
+\end{equation}
+\begin{equation*}
+    G_t = \log\left(\frac{4.2 - P_t}{4.2 - 1.5}\right) \qquad
+    \beta_x = 0.40 + \frac{0.081(L_x + L_2)^{3.23}}{(SN + 1)^{5.19} L_2^{3.23}}
+\end{equation*}
+Where:
+\begin{itemize}
+    \item $L_x$ is the load in kips on one single axle, one set of tandem axles, or one set of triple axles.
+    \item $L_2$ is the axle code (1 for single, 2 for tandem axles, and 3 for triple axles).
+    \item $\beta_{18}$ is the value of $\beta_x$ when $L_x$ is equal to 18 and $L_2$ is equal to one.
+\end{itemize}
+
+
+\begin{table}[H]
+\centering
+\resizebox{\linewidth}{!}{
+\begin{tabular}{|l|l|c|c|c|}
+\hline
+\textbf{Vehicle type} & \textbf{Axle group} & \textbf{Load in tons} & $L_x$ \textbf{(kips)} & $L_2$ \\
+\hline
+
+\multirow{2}{*}{\begin{tabular}[c]{@{}l@{}}1. Passenger cars \\ 2T s.s (1+1T)\end{tabular}}
+  & Front single axle & 1 T & 2.205 & 1 \\
+  & Rear single axle  & 1 T & 2.205 & 1 \\
+\hline
+
+\multirow{2}{*}{\begin{tabular}[c]{@{}l@{}}2. Small bus \\ 9T s.s (3+6T)\end{tabular}}
+  & Front single axle & 3 T & 6.615  & 1 \\
+  & Rear single axle  & 6 T & 13.23  & 1 \\
+\hline
+
+\multirow{2}{*}{\begin{tabular}[c]{@{}l@{}}3. Class 1 \\ s.d (6+10T)\end{tabular}}
+  & Front single axle & 6 T  & 13.23  & 1 \\
+  & Rear tandem axle  & 10 T & 22.05  & 1 \\
+\hline
+
+\multirow{2}{*}{\begin{tabular}[c]{@{}l@{}}4. Class 3 \\ s.dd (6+19T)\end{tabular}}
+  & Front single axle & 6 T  & 13.23  & 1 \\
+  & Rear tandem axle  & 19 T & 41.895 & 2 \\
+\hline
+
+\multirow{2}{*}{\begin{tabular}[c]{@{}l@{}}5. Class 5 \\ ss.ddd (11+24T)\end{tabular}}
+  & Front tandem axle & 11 T & 24.255 & 2 \\
+  & Rear triple axle  & 24 T & 52.92  & 3 \\
+\hline
+
+\multirow{3}{*}{\begin{tabular}[c]{@{}l@{}}6. Class 15 \\ s.d-ddd (6+10+24T)\end{tabular}}
+  & Front single axle   & 6 T  & 13.23 & 1 \\
+  & Middle tandem axle  & 10 T & 22.05 & 1 \\
+  & Rear triple axle    & 24 T & 52.92 & 3 \\
+\hline
+
+\end{tabular}}
+\caption{Axle load for each type of vehicles}
+\label{tab:axle_load}
+\end{table}
+Let Assume that the structural number (SN) is 4. Then by using \ref{eq:ealf_flexible}
+and the value of $L_x$, $L_2$ as listed in table \ref{tab:axle_load}. We can calculate
+EALF of Axle groups of each vehicles type. And result shown as in table \ref{tab:ealf_flexible} below:
+
+\begin{table}[H]
+\centering
+\resizebox{\linewidth}{!}{
+\begin{tabular}{|llclcr
+>{\columncolor[HTML]{C0E6F5}}c |}
+\hline
+\multicolumn{7}{|l|}{\cellcolor[HTML]{DAE9F8}{\color[HTML]{002060} \textbf{EALF calculation}}} \\ \hline
+\multicolumn{1}{|l|}{\textbf{Vehicle class}} &
+\multicolumn{1}{l|}{\textbf{Axle group}} &
+\multicolumn{1}{c|}{$\boldsymbol{G_t}$} &
+\multicolumn{1}{c|}{$\boldsymbol{\beta_x}$} &
+\multicolumn{1}{c|}{$\boldsymbol{\beta_{18}}$} &
+\multicolumn{1}{c|}{$\mathbf{\log(W_{tx}/W_{t18})}$} &
+\textbf{EALF} \\ \hline
+
+\multicolumn{1}{|l|}{}                                                   & \multicolumn{1}{l|}{Front single axle}  & \multicolumn{1}{c|}{}                            & \multicolumn{1}{l|}{0.40082} & \multicolumn{1}{c|}{}                           & \multicolumn{1}{r|}{3.506511996}  & 0.000312 \\ \cline{2-2} \cline{4-4} \cline{6-7}
+\multicolumn{1}{|l|}{\multirow{-2}{*}{1. Passenger cars, 2T s.s (1+1T)}} & \multicolumn{1}{l|}{Rear single axle}   & \multicolumn{1}{c|}{}                            & \multicolumn{1}{l|}{0.40082} & \multicolumn{1}{c|}{}                           & \multicolumn{1}{r|}{3.506511996}  & 0.000312 \\ \cline{1-2} \cline{4-4} \cline{6-7}
+\multicolumn{1}{|l|}{}                                                   & \multicolumn{1}{l|}{Front single axle}  & \multicolumn{1}{c|}{}                            & \multicolumn{1}{l|}{0.41345} & \multicolumn{1}{c|}{}                           & \multicolumn{1}{r|}{1.721536263}  & 0.018987 \\ \cline{2-2} \cline{4-4} \cline{6-7}
+\multicolumn{1}{|l|}{\multirow{-2}{*}{2. Small bus, 9T s.s (3+6T)}}      & \multicolumn{1}{l|}{Rear single axle}   & \multicolumn{1}{c|}{}                            & \multicolumn{1}{l|}{0.50132} & \multicolumn{1}{c|}{}                           & \multicolumn{1}{r|}{0.506060334}  & 0.311846 \\ \cline{1-2} \cline{4-4} \cline{6-7}
+\multicolumn{1}{|l|}{}                                                   & \multicolumn{1}{l|}{Front single axle}  & \multicolumn{1}{c|}{}                            & \multicolumn{1}{l|}{0.50132} & \multicolumn{1}{c|}{}                           & \multicolumn{1}{r|}{0.506060334}  & 0.311846 \\ \cline{2-2} \cline{4-4} \cline{6-7}
+\multicolumn{1}{|l|}{\multirow{-2}{*}{3. Class 1 s.d (6+10T)}}           & \multicolumn{1}{l|}{Rear tandem axle}   & \multicolumn{1}{c|}{}                            & \multicolumn{1}{l|}{0.88112} & \multicolumn{1}{c|}{}                           & \multicolumn{1}{r|}{-0.324528792} & 2.111197 \\ \cline{1-2} \cline{4-4} \cline{6-7}
+\multicolumn{1}{|l|}{}                                                   & \multicolumn{1}{l|}{Front single axle}  & \multicolumn{1}{c|}{}                            & \multicolumn{1}{l|}{0.50132} & \multicolumn{1}{c|}{}                           & \multicolumn{1}{r|}{0.506060334}  & 0.311846 \\ \cline{2-2} \cline{4-4} \cline{6-7}
+\multicolumn{1}{|l|}{\multirow{-2}{*}{4. Class 3 s.dd (6+19T)}}          & \multicolumn{1}{l|}{Rear tandem axle}   & \multicolumn{1}{c|}{}                            & \multicolumn{1}{l|}{0.81068} & \multicolumn{1}{c|}{}                           & \multicolumn{1}{r|}{-0.380857113} & 2.403572 \\ \cline{1-2} \cline{4-4} \cline{6-7}
+\multicolumn{1}{|l|}{}                                                   & \multicolumn{1}{l|}{Front tandem axle}  & \multicolumn{1}{c|}{}                            & \multicolumn{1}{l|}{0.47808} & \multicolumn{1}{c|}{}                           & \multicolumn{1}{r|}{0.515869481}  & 0.304881 \\ \cline{2-2} \cline{4-4} \cline{6-7}
+\multicolumn{1}{|l|}{\multirow{-2}{*}{5. Class 5 ss.ddd (11+24T)}}       & \multicolumn{1}{l|}{Rear triple axle}   & \multicolumn{1}{c|}{}                            & \multicolumn{1}{l|}{0.64231} & \multicolumn{1}{c|}{}                           & \multicolumn{1}{r|}{-0.187026387} & 1.538248 \\ \cline{1-2} \cline{4-4} \cline{6-7}
+\multicolumn{1}{|l|}{}                                                   & \multicolumn{1}{l|}{Front single axle}  & \multicolumn{1}{c|}{}                            & \multicolumn{1}{l|}{0.50132} & \multicolumn{1}{c|}{}                           & \multicolumn{1}{r|}{0.506060334}  & 0.311846 \\ \cline{2-2} \cline{4-4} \cline{6-7}
+\multicolumn{1}{|l|}{}                                                   & \multicolumn{1}{l|}{Middle tandem axle} & \multicolumn{1}{c|}{}                            & \multicolumn{1}{l|}{0.88112} & \multicolumn{1}{c|}{}                           & \multicolumn{1}{r|}{-0.324528792} & 2.111197 \\ \cline{2-2} \cline{4-4} \cline{6-7}
+\multicolumn{1}{|l|}{\multirow{-3}{*}{6. Class 15 s.d-ddd (6+10+24T)}}   & \multicolumn{1}{l|}{Rear triple axle}   & \multicolumn{1}{c|}{\multirow{-13}{*}{$-0.20091$}} & \multicolumn{1}{l|}{0.64231} & \multicolumn{1}{c|}{\multirow{-13}{*}{$0.65775$}} & \multicolumn{1}{r|}{-0.187026387} & 1.538248 \\ \hline
+\end{tabular}}
+\caption{EALF for flexible pavement of axle group of each vehicle type}
+\label{tab:ealf_flexible}
+\end{table}
+Then we can use these result (table \ref{tab:ealf_flexible}) to calculate ESAL for each axle of
+each vehicle type by using \ref{eq:esal_calculation}. And result as shown in table
+\ref{tab:esal_flexible} below:
+\begin{table}[H]
+\resizebox{\linewidth}{!}{
+\begin{tabular}{|ll
+>{\columncolor[HTML]{C0E6F5}}l c|}
+\hline
+\multicolumn{4}{|l|}{\cellcolor[HTML]{DAE9F8}{\color[HTML]{002060} \textbf{ESAL calculation}}}                                                                                                                                                \\ \hline
+\multicolumn{1}{|l|}{\textbf{Vehicle class}}                               & \multicolumn{1}{l|}{\textbf{Axle   group}} & \multicolumn{2}{c|}{\cellcolor[HTML]{C0E6F5}\textbf{ESAL}}                                                          \\ \hline
+\multicolumn{1}{|l|}{}                                                     & \multicolumn{1}{l|}{Front single axle}     & \multicolumn{1}{l|}{\cellcolor[HTML]{C0E6F5}2815.48951}    & \cellcolor[HTML]{C0E6F5}                               \\ \cline{2-3}
+\multicolumn{1}{|l|}{\multirow{-2}{*}{1.   Passenger cars, 2T s.s (1+1T)}} & \multicolumn{1}{l|}{Rear single axle}      & \multicolumn{1}{l|}{\cellcolor[HTML]{C0E6F5}2815.48951}    & \multirow{-2}{*}{\cellcolor[HTML]{C0E6F5}5630.97902}   \\ \hline
+\multicolumn{1}{|l|}{}                                                     & \multicolumn{1}{l|}{Front single axle}     & \multicolumn{1}{l|}{\cellcolor[HTML]{C0E6F5}45458.24767}   & \cellcolor[HTML]{C0E6F5}                               \\ \cline{2-3}
+\multicolumn{1}{|l|}{\multirow{-2}{*}{2.   Small bus, 9T s.s (3+6T)}}      & \multicolumn{1}{l|}{Rear single axle}      & \multicolumn{1}{l|}{\cellcolor[HTML]{C0E6F5}746601.08993}  & \multirow{-2}{*}{\cellcolor[HTML]{C0E6F5}792059.33760} \\ \hline
+\multicolumn{1}{|l|}{}                                                     & \multicolumn{1}{l|}{Front single axle}     & \multicolumn{1}{l|}{\cellcolor[HTML]{C0E6F5}37330.05450}   & \cellcolor[HTML]{C0E6F5}                               \\ \cline{2-3}
+\multicolumn{1}{|l|}{\multirow{-2}{*}{3.   Class 1 s.d (6+10T)}}           & \multicolumn{1}{l|}{Rear tandem axle}      & \multicolumn{1}{l|}{\cellcolor[HTML]{C0E6F5}252724.73512}  & \multirow{-2}{*}{\cellcolor[HTML]{C0E6F5}290054.78962} \\ \hline
+\multicolumn{1}{|l|}{}                                                     & \multicolumn{1}{l|}{Front single axle}     & \multicolumn{1}{l|}{\cellcolor[HTML]{C0E6F5}74660.10899}   & \cellcolor[HTML]{C0E6F5}                               \\ \cline{2-3}
+\multicolumn{1}{|l|}{\multirow{-2}{*}{4.   Class 3 s.dd (6+19T)}}          & \multicolumn{1}{l|}{Rear tandem axle}      & \multicolumn{1}{l|}{\cellcolor[HTML]{C0E6F5}575447.97493}  & \multirow{-2}{*}{\cellcolor[HTML]{C0E6F5}650108.08392} \\ \hline
+\multicolumn{1}{|l|}{}                                                     & \multicolumn{1}{l|}{Front tandem axle}     & \multicolumn{1}{l|}{\cellcolor[HTML]{C0E6F5}18248.17685}   & \cellcolor[HTML]{C0E6F5}                               \\ \cline{2-3}
+\multicolumn{1}{|l|}{\multirow{-2}{*}{5.   Class 5 ss.ddd (11+24T)}}       & \multicolumn{1}{l|}{Rear triple axle}      & \multicolumn{1}{l|}{\cellcolor[HTML]{C0E6F5}92069.40776}   & \multirow{-2}{*}{\cellcolor[HTML]{C0E6F5}110317.58460} \\ \hline
+\multicolumn{1}{|l|}{}                                                     & \multicolumn{1}{l|}{Front single axle}     & \multicolumn{1}{l|}{\cellcolor[HTML]{C0E6F5}37330.05450}   & \cellcolor[HTML]{C0E6F5}                               \\ \cline{2-3}
+\multicolumn{1}{|l|}{}                                                     & \multicolumn{1}{l|}{Middle tandem axle}    & \multicolumn{1}{l|}{\cellcolor[HTML]{C0E6F5}252724.73512}  & \cellcolor[HTML]{C0E6F5}                               \\ \cline{2-3}
+\multicolumn{1}{|l|}{\multirow{-3}{*}{6.   Class 15 s.d-ddd (6+10+24T)}}   & \multicolumn{1}{l|}{Rear triple axle}      & \multicolumn{1}{l|}{\cellcolor[HTML]{C0E6F5}184138.81551}  & \multirow{-3}{*}{\cellcolor[HTML]{C0E6F5}474193.60513} \\ \hline
+\multicolumn{2}{|l|}{\cellcolor[HTML]{F2CEEF}Total ESAL for   flexible pavement}                                        & \multicolumn{1}{l|}{\cellcolor[HTML]{FFFF00}2322364.37989} & \multicolumn{1}{l|}{}                                  \\ \hline
+\end{tabular}}
+\caption{ESAL calculation for flexible pavement}
+\label{tab:esal_flexible}
+\end{table}
+
+\subsubsection{For Rigid Pavement}
+
+The 1993 AASHTO guide developed Equivalent Axle Load Factors (EALF) to relate the damage caused by different load magnitudes and axle configurations to the standard axle load:
+
+\begin{equation*}
+EALF = \frac{W_{t18}}{W_{tx}}
+\end{equation*}
+where
+\begin{equation}
+\log\left(\frac{W_{tx}}{W_{t18}}\right) = 4.62 \log(18 + 1) - 4.62 \log(L_x + L_2) + 3.28 \log(L_2) + \frac{G_t}{\beta_x} - \frac{G_t}{\beta_{18}}
+\label{eq:ealf_rigid}
+\end{equation}
+and
+\begin{align*}
+G_t &= \log\left(\frac{4.2 - P_t}{4.2 - 1.5}\right) \\
+\beta_x &= 1 + \frac{3.63(L_x + L_2)^{5.2}}{(D + 1)^{8.46} L_2^{3.2}}
+\end{align*}
+Let us assume the slab thickness ($D$) is 10 inches. Then by using \ref{eq:ealf_rigid} and the value of $L_x$, $L_2$ as listed in Table \ref{tab:axle_load}, we can calculate EALF of axle type of each vehicles type. And result shown as in Table \ref{tab:ealf_rigid} below:
+\begin{table}[H]
+\resizebox{\linewidth}{!}{
+\begin{tabular}{|llclcl
+>{\columncolor[HTML]{C0E6F5}}c |}
+\hline
+\multicolumn{7}{|l|}{\cellcolor[HTML]{DAE9F8}{\color[HTML]{002060} \textbf{EALF calculation}}}                                                                                                                                                                                                                                 \\ \hline
+\multicolumn{1}{|l|}{\textbf{Vehicle class}}                             & \multicolumn{1}{l|}{\textbf{Axle   group}} & \multicolumn{1}{c|}{$G_t$}               & \multicolumn{1}{c|}{\textbf{$\beta_x$}} & \multicolumn{1}{c|}{\textbf{$\beta_{18}$}}          & \multicolumn{1}{c|}{\textbf{$\log(1/EALF)$}} & \textbf{EALF} \\ \hline
+\multicolumn{1}{|l|}{}                                                   & \multicolumn{1}{l|}{Front single axle}     & \multicolumn{1}{c|}{}                            & \multicolumn{1}{l|}{1.00000}          & \multicolumn{1}{c|}{}                           & \multicolumn{1}{l|}{3.566001873}          & 0.00027       \\ \cline{2-2} \cline{4-4} \cline{6-7}
+\multicolumn{1}{|l|}{\multirow{-2}{*}{1. Passenger cars, 2T s.s (1+1T)}} & \multicolumn{1}{l|}{Rear single axle}      & \multicolumn{1}{c|}{}                            & \multicolumn{1}{l|}{1.00000}          & \multicolumn{1}{c|}{}                           & \multicolumn{1}{l|}{3.566001873}          & 0.00027       \\ \cline{1-2} \cline{4-4} \cline{6-7}
+\multicolumn{1}{|l|}{}                                                   & \multicolumn{1}{l|}{Front single axle}     & \multicolumn{1}{c|}{}                            & \multicolumn{1}{l|}{1.00022}          & \multicolumn{1}{c|}{}                           & \multicolumn{1}{l|}{1.829655318}          & 0.01480       \\ \cline{2-2} \cline{4-4} \cline{6-7}
+\multicolumn{1}{|l|}{\multirow{-2}{*}{2. Small bus, 9T s.s (3+6T)}}      & \multicolumn{1}{l|}{Rear single axle}      & \multicolumn{1}{c|}{}                            & \multicolumn{1}{l|}{1.00558}          & \multicolumn{1}{c|}{}                           & \multicolumn{1}{l|}{0.57623453}           & 0.26532       \\ \cline{1-2} \cline{4-4} \cline{6-7}
+\multicolumn{1}{|l|}{}                                                   & \multicolumn{1}{l|}{Front single axle}     & \multicolumn{1}{c|}{}                            & \multicolumn{1}{l|}{1.00558}          & \multicolumn{1}{c|}{}                           & \multicolumn{1}{l|}{0.57623453}           & 0.26532       \\ \cline{2-2} \cline{4-4} \cline{6-7}
+\multicolumn{1}{|l|}{\multirow{-2}{*}{3. Class 1 s.d (6+10T)}}           & \multicolumn{1}{l|}{Rear tandem axle}      & \multicolumn{1}{c|}{}                            & \multicolumn{1}{l|}{1.06849}          & \multicolumn{1}{c|}{}                           & \multicolumn{1}{l|}{-0.379734569}         & 2.39737       \\ \cline{1-2} \cline{4-4} \cline{6-7}
+\multicolumn{1}{|l|}{}                                                   & \multicolumn{1}{l|}{Front single axle}     & \multicolumn{1}{c|}{}                            & \multicolumn{1}{l|}{1.00558}          & \multicolumn{1}{c|}{}                           & \multicolumn{1}{l|}{0.57623453}           & 0.26532       \\ \cline{2-2} \cline{4-4} \cline{6-7}
+\multicolumn{1}{|l|}{\multirow{-2}{*}{4. Class 3 s.dd (6+19T)}}          & \multicolumn{1}{l|}{Rear tandem axle}      & \multicolumn{1}{c|}{}                            & \multicolumn{1}{l|}{1.17008}          & \multicolumn{1}{c|}{}                           & \multicolumn{1}{l|}{-0.66844753}          & 4.66066       \\ \cline{1-2} \cline{4-4} \cline{6-7}
+\multicolumn{1}{|l|}{}                                                   & \multicolumn{1}{l|}{Front tandem axle}     & \multicolumn{1}{c|}{}                            & \multicolumn{1}{l|}{1.01175}          & \multicolumn{1}{c|}{}                           & \multicolumn{1}{l|}{0.335878888}          & 0.46145       \\ \cline{2-2} \cline{4-4} \cline{6-7}
+\multicolumn{1}{|l|}{\multirow{-2}{*}{5. Class 5 ss.ddd (11+24T)}}       & \multicolumn{1}{l|}{Rear triple axle}      & \multicolumn{1}{c|}{}                            & \multicolumn{1}{l|}{1.14375}          & \multicolumn{1}{c|}{}                           & \multicolumn{1}{l|}{-0.580624123}         & 3.80736       \\ \cline{1-2} \cline{4-4} \cline{6-7}
+\multicolumn{1}{|l|}{}                                                   & \multicolumn{1}{l|}{Front single axle}     & \multicolumn{1}{c|}{}                            & \multicolumn{1}{l|}{1.00558}          & \multicolumn{1}{c|}{}                           & \multicolumn{1}{l|}{0.57623453}           & 0.26532       \\ \cline{2-2} \cline{4-4} \cline{6-7}
+\multicolumn{1}{|l|}{}                                                   & \multicolumn{1}{l|}{Middle tandem axle}    & \multicolumn{1}{c|}{}                            & \multicolumn{1}{l|}{1.06849}          & \multicolumn{1}{c|}{}                           & \multicolumn{1}{l|}{-0.379734569}         & 2.39737       \\ \cline{2-2} \cline{4-4} \cline{6-7}
+\multicolumn{1}{|l|}{\multirow{-3}{*}{6. Class 15 s.d-ddd (6+10+24T)}}   & \multicolumn{1}{l|}{Rear triple axle}      & \multicolumn{1}{c|}{\multirow{-13}{*}{-0.20091}} & \multicolumn{1}{l|}{1.14375}          & \multicolumn{1}{c|}{\multirow{-13}{*}{1.02508}} & \multicolumn{1}{l|}{-0.580624123}         & 3.80736       \\ \hline
+\end{tabular}}
+\caption{EALF for rigid pavement}
+\label{tab:ealf_rigid}
+\end{table}
+Then we can use these results (Table \ref{tab:ealf_rigid}) to calculate the Equivalent Single Axle Load (ESAL) for each axle of each vehicle type by using \ref{eq:esal_calculation}. The results are shown in Table \ref{tab:esal_rigid} below.
+\begin{table}[H]
+\begin{tabular}{|ll
+>{\columncolor[HTML]{C0E6F5}}l l|}
+\hline
+\multicolumn{4}{|l|}{\cellcolor[HTML]{DAE9F8}{\color[HTML]{002060} \textbf{ESAL calculation}}}                                                                                                                                                 \\ \hline
+\multicolumn{1}{|l|}{\textbf{Vehicle class}}                               & \multicolumn{1}{l|}{\textbf{Axle   group}} & \multicolumn{2}{c|}{\cellcolor[HTML]{C0E6F5}\textbf{ESAL}}                                                           \\ \hline
+\multicolumn{1}{|l|}{}                                                     & \multicolumn{1}{l|}{Front single axle}     & \multicolumn{1}{l|}{\cellcolor[HTML]{C0E6F5}2455.07089}    & \cellcolor[HTML]{C0E6F5}                                \\ \cline{2-3}
+\multicolumn{1}{|l|}{\multirow{-2}{*}{1.   Passenger cars, 2T s.s (1+1T)}} & \multicolumn{1}{l|}{Rear single axle}      & \multicolumn{1}{l|}{\cellcolor[HTML]{C0E6F5}2455.07089}    & \multirow{-2}{*}{\cellcolor[HTML]{C0E6F5}4910.14177}    \\ \hline
+\multicolumn{1}{|l|}{}                                                     & \multicolumn{1}{l|}{Front single axle}     & \multicolumn{1}{l|}{\cellcolor[HTML]{C0E6F5}35439.99366}   & \cellcolor[HTML]{C0E6F5}                                \\ \cline{2-3}
+\multicolumn{1}{|l|}{\multirow{-2}{*}{2.   Small bus, 9T s.s (3+6T)}}      & \multicolumn{1}{l|}{Rear single axle}      & \multicolumn{1}{l|}{\cellcolor[HTML]{C0E6F5}635205.75428}  & \multirow{-2}{*}{\cellcolor[HTML]{C0E6F5}670645.74794}  \\ \hline
+\multicolumn{1}{|l|}{}                                                     & \multicolumn{1}{l|}{Front single axle}     & \multicolumn{1}{l|}{\cellcolor[HTML]{C0E6F5}31760.28771}   & \cellcolor[HTML]{C0E6F5}                                \\ \cline{2-3}
+\multicolumn{1}{|l|}{\multirow{-2}{*}{3.   Class 1 s.d (6+10T)}}           & \multicolumn{1}{l|}{Rear tandem axle}      & \multicolumn{1}{l|}{\cellcolor[HTML]{C0E6F5}286981.25268}  & \multirow{-2}{*}{\cellcolor[HTML]{C0E6F5}318741.54040}  \\ \hline
+\multicolumn{1}{|l|}{}                                                     & \multicolumn{1}{l|}{Front single axle}     & \multicolumn{1}{l|}{\cellcolor[HTML]{C0E6F5}63520.57543}   & \cellcolor[HTML]{C0E6F5}                                \\ \cline{2-3}
+\multicolumn{1}{|l|}{\multirow{-2}{*}{4.   Class 3 s.dd (6+19T)}}          & \multicolumn{1}{l|}{Rear tandem axle}      & \multicolumn{1}{l|}{\cellcolor[HTML]{C0E6F5}1115826.01732} & \multirow{-2}{*}{\cellcolor[HTML]{C0E6F5}1179346.59274} \\ \hline
+\multicolumn{1}{|l|}{}                                                     & \multicolumn{1}{l|}{Front tandem axle}     & \multicolumn{1}{l|}{\cellcolor[HTML]{C0E6F5}27619.13507}   & \cellcolor[HTML]{C0E6F5}                                \\ \cline{2-3}
+\multicolumn{1}{|l|}{\multirow{-2}{*}{5.   Class 5 ss.ddd (11+24T)}}       & \multicolumn{1}{l|}{Rear triple axle}      & \multicolumn{1}{l|}{\cellcolor[HTML]{C0E6F5}227883.60707}  & \multirow{-2}{*}{\cellcolor[HTML]{C0E6F5}255502.74213}  \\ \hline
+\multicolumn{1}{|l|}{}                                                     & \multicolumn{1}{l|}{Front single axle}     & \multicolumn{1}{l|}{\cellcolor[HTML]{C0E6F5}31760.28771}   & \cellcolor[HTML]{C0E6F5}                                \\ \cline{2-3}
+\multicolumn{1}{|l|}{}                                                     & \multicolumn{1}{l|}{Middle tandem axle}    & \multicolumn{1}{l|}{\cellcolor[HTML]{C0E6F5}286981.25268}  & \cellcolor[HTML]{C0E6F5}                                \\ \cline{2-3}
+\multicolumn{1}{|l|}{\multirow{-3}{*}{6.   Class 15 s.d-ddd (6+10+24T)}}   & \multicolumn{1}{l|}{Rear triple axle}      & \multicolumn{1}{l|}{\cellcolor[HTML]{C0E6F5}455767.21414}  & \multirow{-3}{*}{\cellcolor[HTML]{C0E6F5}774508.75453}  \\ \hline
+\multicolumn{2}{|l|}{\cellcolor[HTML]{F2CEEF}Total ESAL for rigid   pavement}                                           & \multicolumn{1}{l|}{\cellcolor[HTML]{FFFF00}3203655.51952} &                                                         \\ \hline
+\end{tabular}
+\caption{ESAL for rigid pavement}
+\label{tab:esal_rigid}
+\end{table}
+\clearpage
+\subsection{Tasks B:Flexible Pavement Design (AASHTO 1993)}
+Design Equation:
+\begin{equation}
+    \log W_{18} = Z_R S_0 + 9.36 \log(SN + 1) - 0.2 +
+    \frac{\log[\Delta PSI/(4.2 - 1.5)]}{0.4 + 1094/(SN + 1)^{5.19}}
+    + 2.32 \log M_R - 8.07
+\label{eq:design_equation_flexible}
+\end{equation}
+Where:
+\begin{itemize}
+    \item $W_{18}$ is cumulative expected 18-kip ESAL during the design life in the design lane
+    \item $Z_R$ is the normal deviate for a given reliability $R$
+    \item $M_R$ is the Effective roadbed soil resilient modulus
+\end{itemize}
+\subsubsection{Layer Materials}
+The flexible pavement consists of three structural layers placed above the natural subgrade: a
+surface course, a base course, and a subbase course, as illustrated in Figure 5.1. The materials
+selected for each layer are presented in Table \ref{tab:material_flexible}.
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.3]{image/Structural_layer.jpeg}
+\caption{Typical cross-section of a flexible pavement structure}
+\label{fig:SN}
+\end{figure}
+\begin{table}[h!]
+\centering
+\begin{tabular}{ll}
+\toprule
+ Layer & Material \\
+\midrule
+Surface Course & Asphate Concrete (AC) \\
+Base Course & Cruch Aggregate \\
+Subbase Course & Laterite \\
+\bottomrule
+\end{tabular}
+\caption{Layer's Using Materials}
+\label{tab:material_flexible}
+\end{table}
+\subsubsection{Structurela Number (SN)}
+One the design structural number (SN) for an initial pavement structure is determined, it is
+neecessary to indendity a set of pavement layer thicknesses which, when combined, wil provide
+the load-carrying capacity corresponding to the design SN.
+\begin{equation}
+SN = a_1D_1 + a_2D_2m_2 + a_3D_3m_3
+\label{eq:strurualnumber}
+\end{equation}
+Where:
+\begin{itemize}
+    \item $a_1, a_2, a_3$ are layer coefficients representative of surface, base, and subbase courses, respectively
+    \item $D_1, D_2, D_3$ are actual thickness (in inches) of surface, base, and subbase course, respectively
+    \item $m_1, m_2$ are drainage coefficients for base, and subbase layers, respectively
+\end{itemize}
+\subsubsection*{Resilient Modulus}
+For fine-grained subgrade soils, the relationship proposed by Heukelom and Klomp (1962) is
+widely used:
+\begin{equation*}
+M_{R}(psi) = 1500 \times CBR
+\end{equation*}
+For granular materials, a nonlinear relationship is more appropriate. Powell et al. (1984) proposed:
+\begin{equation*}
+M_R(psi) = 2555 \times CBR^{0.64}
+\end{equation*}
+\vspace*{-0.5cm}
+\subsubsection*{Effective design subgrade CBR}
+Since the AASHTO method does not use the lowest CBR or an average CBR directly from
+monthly data table (table \ref{tab:subgrad_evaluation}) to calculate $M_{R,subgrade}$. So in order
+to get the value of $M_{R,subgrade}$ we will calculate it from equation \ref{eq:relative_damage} below.
+\begin{equation}
+    u_f = 1.18 \times 10^8 \times M_R^{-2.32}
+    \label{eq:relative_damage}
+\end{equation}
+by convert each monthly CBR (table \ref{tab:subgrad_evaluation}) to a relative damage value ($u_f$),
+takes the mean of $u_f$, then calculate back to find $M_{R;subgrade}$.\\
+Then we got:
+\begin{equation*}
+    M_{R,subgrade} = 6852, \qquad CBR = 4.6\%
+\end{equation*}
+\vspace*{-0.5cm}
+\subsubsection*{Resilient Modulus for Each Layer}
+As we already know the CBR value for each layer of flexible pavement, we can use the above
+formula to calculate $M_R$ for each layer. And result as shown in table below:
+\begin{table}[H]
+\centering
+\begin{tabular}{llcc}
+\toprule
+\textbf{Layer} & \textbf{Material} & \textbf{CBR (\%)} & $M_R(psi)$ \\
+\midrule
+Base      & Crushed Aggregate & 120 & 54,710 \\
+Subbase   & Laterite          & 45  & 29,204 \\
+Subgrade  & Natural soil      & 4.6 & 6,852  \\
+\bottomrule
+\end{tabular}
+\caption{Resilient Modulus for Each Layer of flexible pavement}
+\label{tab:resilient_modulus}
+\end{table}
+\subsubsection*{Required SN for Each Layer}
+By using Design Equation (\ref{eq:design_equation_flexible}) , the value of $W_{18}$ from table
+\ref{tab:esal_flexible} which is calculate in tasks A, $Z_R$ for reliability of 90\% is $-1.282$,
+and $M_R$ for each layer as shown in table above (table \ref{tab:resilient_modulus}).
+We then can find Required SN for Surface Course, Base Course and Sub-grade. And result as
+shown in table \ref{tab:required_sn} below:
+\begin{table}[h!]
+\centering
+\begin{tabular}{|l|l|c|l|c|}
+\hline
+\textbf{Layer} & \multicolumn{2}{c|}{\textbf{Resilient modulus}} & \multicolumn{2}{c|}{\textbf{Required SN}} \\
+\hline
+Surface Course   & $M_{R;base}$     & 54,710 & $SN_1$ & 1.85 \\
+\hline
+Base Course      & $M_{R;subbase}$  & 29204  & $SN_2$ & 2.37 \\
+\hline
+Sub-base Course  & $M_{R;subgrade}$ & 6852   & $SN_3$ & 4.11 \\
+\hline
+\end{tabular}
+\caption{Required SN for each layer of flexible pavement}
+\label{tab:required_sn}
+\end{table}
+\subsubsection*{Layer Coefficients $(a_i)$}
+The structural layer coefficients is a measure of the relative ability of a unit thickness of a given
+material to function as a structural component of the pavement.
+\begin{figure}[H]
+\centering
+\includegraphics[scale=.4]{image/Layer_coefficient.png}
+\caption{Layer coefficients}
+\label{fig:layer_coefficient}
+\end{figure}
+Fromfigure \ref{fig:layer_coefficient} we can select the value of $a1,a2,a3$ for each layer of flexible pavement as shown
+in table below (tab.\ref{tab:layer_coefficients}):
+\begin{table}[H]
+\centering
+\begin{tabular}{llll}
+\toprule
+\textbf{Layer} & \textbf{Material} & \textbf{Property} & \textbf{Coefficient} \\
+\midrule
+Surface  & Asphalt Concrete  & $Eac = 450,000\,psi$ & $a_1 = 0.44$  \\
+Base     & Crushed Aggregate & $CBR = 120\%$        & $a_2 = 0.15$  \\
+Subbase  & Laterite          & $CBR = 45\%$         & $a_3 = 0.122$ \\
+\bottomrule
+\end{tabular}
+\caption{Layer coefficients for flexible pavement}
+\label{tab:layer_coefficients}
+\end{table}
+\subsubsection*{Drainage Coefficients $(m_i)$}
+Drainage coefficients are measures of the quality of drainage and the availability of moistures
+in the granular base and subbase
+\begin{figure}[H]
+\centering
+\includegraphics[scale=.8]{image/drainage_coefficient.png}
+\caption{Drainage coefficients}
+\label{fig:drainage_coefficient}
+\end{figure}
+The drainage coefficients $m_2$ and $m_3$ are depend on how well water drains from each
+layers and how often the pavement gets wet.
+
+For \textbf{Base Layer} the material is crushed aggregate, it has a high CBR of 120\% and
+is a clean, free drainage material. Water can drain out without about a day, so the drainage
+quality is consider as \textbf{Good}.
+
+For \textbf{Subbase Layer} the material is laterite, it has a CBR of 45\% and is a
+fine-grained material. Water can drain out in about a week, so the drainage quality is
+consider as \textbf{Fair}.
+
+And for Moisture Exposure, according to the monthly CBR data (table \ref{tab:subgrad_evaluation}, page \pageref{tab:subgrad_evaluation}),
+moisture content increase from May to August (18\% $-$ 23\%) and the CBR drops to 3\% $-$
+5\%. We see that the wet season last about 4 months, or about 25 $-$ 33\% of the year.
+For design purpose, then the 5\% $-$ 25\% exposure category is used.
+
+Then According to the description above we can select the value of $m_2$ and $m_3$ from
+figure \ref{fig:5.3} as shown in table below (table \ref{tab:drainage_coeff}):
+
+\begin{table}[H]
+\centering
+\begin{tabular}{llcc}
+\toprule
+Layer & Drainage Quality & Moisture Exposure & Coefficient \\
+\midrule
+Base (Crushed Aggregate) & Good & $5 - 25\%$ & $m_2 = 1$ \\
+Subbase (Laterite)       & Fair & $5 - 25\%$ & $m_3 = 1$ \\
+\bottomrule
+\end{tabular}
+\caption{Drainage coefficients for each layer of flexible pavement}
+\label{tab:drainage_coeff}
+\end{table}
+\subsubsection*{Layer Thicknesses Calculation}
+In order to calculate the layer thicknesses for each layer of flexible pavement. We need to
+consider the following conditions:
+\begin{align*}
+    D1 &\geq \frac{SN_1}{a_1} \\[6pt]
+    D2 &\geq \frac{SN_2 - SN_1^*}{a_2 m_2}, \qquad SN_1^* = a_1 D_1 \\[6pt]
+    D3 &\geq \frac{SN_3 - SN_1^* - SN_2^*}{a_3 m_3}, \qquad SN_2^* = a_2 D_2 m_2
+\end{align*}
+And result of calculated as shown in table below:
+\begin{table}[h]
+\centering
+\begin{tabular}{|l|c|c|c|c|}
+\hline
+\multirow{2}{*}{\textbf{Layer}} & \multicolumn{2}{c|}{\textbf{Thk(m)}, $D$} & \multirow{2}{*}{$SN^*$} & \multirow{2}{*}{$SN_{design}$} \\
+\cline{2-3}
+ & \textit{calculated} & \textit{adopted} & & \\
+\hline
+Surface ($D1$) & 0.106882051 & 0.11  & 1.9055118 & \multirow{3}{*}{4.116692913} \\
+\cline{1-4}
+Base ($D2$)    & 0.078369596 & 0.08  & 0.4724409 & \\
+\cline{1-4}
+Subbase ($D3$) & 0.36110378  & 0.362 & 1.7387402 & \\
+\hline
+\end{tabular}
+\caption{Layer thicknesses for each layer of flexible pavement}
+\label{tab:layer_thickness}
+\end{table}
