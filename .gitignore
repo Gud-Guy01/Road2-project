@@ -1,1 +1,20 @@
-headerfooter-project01.tex
+# LaTeX build files
+*.aux
+*.maf
+*.mtc
+*.mtc0
+*.mtc1
+*.mtc2
+*.mtc3
+*.mtc4
+*.mtc5
+*.synctex.gz
+*.toc
+*.xdv
+*.log
+*.out
+*.fls
+*.fdb_latexmk
+
+# Optional: ignore PDF outputs
+# *.pdf
